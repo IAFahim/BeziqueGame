@@ -4,7 +4,9 @@
 SmRunnerSettings.transpilerId = "CSharp"
 
 [RenderConfig.CSharp]
-NameSpace = "BeziqueCore;"
+NameSpace = "BeziqueCardGame;"
+
+
 '/
 
 hide empty description

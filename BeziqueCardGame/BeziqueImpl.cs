@@ -1,6 +1,11 @@
 namespace BeziqueCardGame;
 
-public partial class Bezique(IBeziqueAdapter adapter)
+public partial class Bezique
 {
-    protected IBeziqueAdapter _adapter = adapter;
+    internal IBeziqueAdapter _adapter;
+
+    Bezique(IBeziqueAdapter adapter)
+    {
+        _adapter = adapter;
+    }
 }

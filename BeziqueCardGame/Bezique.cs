@@ -3,7 +3,7 @@
 
 #nullable enable
 
-namespace BeziqueCore;
+namespace BeziqueCardGame;
 
 // Generated state machine
 public partial class Bezique
